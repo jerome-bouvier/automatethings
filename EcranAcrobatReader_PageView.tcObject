@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="children">
+			<Node name="child_0">
+				<Node name="children"/>
+				<Node name="properties">
+					<Node name="property_15">
+						<Prp name="index" type="I" value="15"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Top"/>
+					</Node>
+					<Node name="property_11">
+						<Prp name="index" type="I" value="11"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value=""/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="MappedName"/>
+					</Node>
+					<Node name="property_9">
+						<Prp name="index" type="I" value="9"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="5"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Index"/>
+					</Node>
+					<Node name="property_21">
+						<Prp name="index" type="I" value="21"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value="AVL_AVView"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WndClass"/>
+					</Node>
+					<Node name="property_14">
+						<Prp name="index" type="I" value="14"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="127"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ScreenTop"/>
+					</Node>
+					<Node name="property_1">
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ControlId"/>
+					</Node>
+					<Node name="property_19">
+						<Prp name="index" type="I" value="19"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="939"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Width"/>
+					</Node>
+					<Node name="property_22">
+						<Prp name="index" type="I" value="22"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="1442840576"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WndStyles"/>
+					</Node>
+					<Node name="property_16">
+						<Prp name="index" type="I" value="16"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Unicode"/>
+					</Node>
+					<Node name="property_20">
+						<Prp name="index" type="I" value="20"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="3"/>
+						<Prp name="value" type="S" value="AVPageView"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WndCaption"/>
+					</Node>
+					<Node name="property_6">
+						<Prp name="index" type="I" value="6"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="3801712"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Handle"/>
+					</Node>
+					<Node name="property_10">
+						<Prp name="index" type="I" value="10"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Left"/>
+					</Node>
+					<Node name="property_0">
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ChildCount"/>
+					</Node>
+					<Node name="property_3">
+						<Prp name="index" type="I" value="3"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Exists"/>
+					</Node>
+					<Node name="property_13">
+						<Prp name="index" type="I" value="13"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="12"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ScreenLeft"/>
+					</Node>
+					<Node name="property_18">
+						<Prp name="index" type="I" value="18"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="VisibleOnScreen"/>
+					</Node>
+					<Node name="property_2">
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Enabled"/>
+					</Node>
+					<Node name="property_7">
+						<Prp name="index" type="I" value="7"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="867"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Height"/>
+					</Node>
+					<Node name="property_12">
+						<Prp name="index" type="I" value="12"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value="Window(&quot;AVL_AVView&quot;, &quot;AVPageView&quot;, *)"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Name"/>
+					</Node>
+					<Node name="property_17">
+						<Prp name="index" type="I" value="17"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Visible"/>
+					</Node>
+					<Node name="property_23">
+						<Prp name="index" type="I" value="23"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WndStylesEx"/>
+					</Node>
+					<Node name="property_8">
+						<Prp name="index" type="I" value="8"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="3801712"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Id"/>
+					</Node>
+					<Node name="property_5">
+						<Prp name="index" type="I" value="5"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value="Sys.Process(&quot;AcroRd32&quot;, 2).Window(&quot;AcrobatSDIWindow&quot;, &quot;rp_5290.pdf - Adobe Acrobat Reader DC&quot;, 1).Window(&quot;AVL_AVView&quot;, &quot;AVFlipContainerView&quot;, 2).Window(&quot;AVL_AVView&quot;, &quot;AVDocumentMainView&quot;, 1).Window(&quot;AVL_AVView&quot;, &quot;AVFlipContainerView&quot;, 2).Window(&quot;AVL_AVView&quot;, &quot;AVSplitterView&quot;, 3).Window(&quot;AVL_AVView&quot;, &quot;AVSplitationPageView&quot;, 3).Window(&quot;AVL_AVView&quot;, &quot;AVSplitterView&quot;, 1).Window(&quot;AVL_AVView&quot;, &quot;AVScrolledPageView&quot;, 1).Window(&quot;AVL_AVView&quot;, &quot;AVScrollView&quot;, 1).Window(&quot;AVL_AVView&quot;, &quot;AVPageView&quot;, 5)"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FullName"/>
+					</Node>
+					<Node name="property_4">
+						<Prp name="index" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Focused"/>
+					</Node>
+				</Node>
+				<Prp name="class name" type="S" value="AVL_AVView"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="group name" type="S" value=""/>
+				<Prp name="selected" type="B" value="-1"/>
+				<Prp name="objecttype" type="I" value="1"/>
+				<Prp name="name" type="S" value="Window(&quot;AVL_AVView&quot;, &quot;AVPageView&quot;, *)"/>
+			</Node>
+		</Node>
+		<Node name="properties"/>
+		<Prp name="class name" type="S" value=""/>
+		<Prp name="identifier" type="S" value="Stores.Objects"/>
+		<Prp name="mode" type="I" value="6"/>
+		<Prp name="group name" type="S" value=""/>
+		<Prp name="selected" type="B" value="-1"/>
+		<Prp name="objecttype" type="I" value="0"/>
+		<Prp name="name" type="S" value=""/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>
