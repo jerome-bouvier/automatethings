@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="children">
+			<Node name="child_0">
+				<Node name="children"/>
+				<Node name="properties">
+					<Node name="property_18">
+						<Prp name="name" type="S" value="VisibleOnScreen"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="index" type="I" value="18"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_10">
+						<Prp name="name" type="S" value="Left"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="30"/>
+						<Prp name="index" type="I" value="10"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_15">
+						<Prp name="name" type="S" value="Top"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="30"/>
+						<Prp name="index" type="I" value="15"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_21">
+						<Prp name="name" type="S" value="WndClass"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value="AcrobatSDIWindow"/>
+						<Prp name="index" type="I" value="21"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_13">
+						<Prp name="name" type="S" value="ScreenLeft"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="30"/>
+						<Prp name="index" type="I" value="13"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_4">
+						<Prp name="name" type="S" value="Focused"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="index" type="I" value="4"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_12">
+						<Prp name="name" type="S" value="Name"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value="Window(&quot;AcrobatSDIWindow&quot;, &quot;* - Adobe Acrobat Reader DC&quot;, 1)"/>
+						<Prp name="index" type="I" value="12"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_0">
+						<Prp name="name" type="S" value="ChildCount"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="2"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_23">
+						<Prp name="name" type="S" value="WndStylesEx"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="256"/>
+						<Prp name="index" type="I" value="23"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_19">
+						<Prp name="name" type="S" value="Width"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="1021"/>
+						<Prp name="index" type="I" value="19"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_20">
+						<Prp name="name" type="S" value="WndCaption"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="kind" type="I" value="3"/>
+						<Prp name="value" type="S" value="rp_9775.pdf - Adobe Acrobat Reader DC"/>
+						<Prp name="index" type="I" value="20"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_22">
+						<Prp name="name" type="S" value="WndStyles"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="382664704"/>
+						<Prp name="index" type="I" value="22"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_14">
+						<Prp name="name" type="S" value="ScreenTop"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="30"/>
+						<Prp name="index" type="I" value="14"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_9">
+						<Prp name="name" type="S" value="Index"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="index" type="I" value="9"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_7">
+						<Prp name="name" type="S" value="Height"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="934"/>
+						<Prp name="index" type="I" value="7"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_11">
+						<Prp name="name" type="S" value="MappedName"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value=""/>
+						<Prp name="index" type="I" value="11"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_5">
+						<Prp name="name" type="S" value="FullName"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="2"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="S" value="Sys.Process(&quot;AcroRd32&quot;, 2).Window(&quot;AcrobatSDIWindow&quot;, &quot;rp_9775.pdf - Adobe Acrobat Reader DC&quot;, 1)"/>
+						<Prp name="index" type="I" value="5"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_8">
+						<Prp name="name" type="S" value="Id"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="9373920"/>
+						<Prp name="index" type="I" value="8"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_1">
+						<Prp name="name" type="S" value="ControlId"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="230031845"/>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_2">
+						<Prp name="name" type="S" value="Enabled"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_6">
+						<Prp name="name" type="S" value="Handle"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="L" value="9373920"/>
+						<Prp name="index" type="I" value="6"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_17">
+						<Prp name="name" type="S" value="Visible"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="index" type="I" value="17"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_16">
+						<Prp name="name" type="S" value="Unicode"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="index" type="I" value="16"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+					<Node name="property_3">
+						<Prp name="name" type="S" value="Exists"/>
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="type" type="I" value="3"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="index" type="I" value="3"/>
+						<Prp name="basic" type="B" value="-1"/>
+					</Node>
+				</Node>
+				<Prp name="group name" type="S" value=""/>
+				<Prp name="name" type="S" value="Window(&quot;AcrobatSDIWindow&quot;, &quot;rp_9775.pdf - Adobe Acrobat Reader DC&quot;, 1)"/>
+				<Prp name="objecttype" type="I" value="1"/>
+				<Prp name="selected" type="B" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="class name" type="S" value="AcrobatSDIWindow"/>
+			</Node>
+		</Node>
+		<Node name="properties"/>
+		<Prp name="group name" type="S" value=""/>
+		<Prp name="name" type="S" value=""/>
+		<Prp name="objecttype" type="I" value="0"/>
+		<Prp name="selected" type="B" value="-1"/>
+		<Prp name="mode" type="I" value="6"/>
+		<Prp name="class name" type="S" value=""/>
+		<Prp name="version" type="I" value="1"/>
+		<Prp name="identifier" type="S" value="Stores.Objects"/>
+	</Node>
+</Nodes>

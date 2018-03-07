@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="children">
+			<Node name="child_0">
+				<Node name="children"/>
+				<Node name="properties">
+					<Node name="property_73">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="popupWidth"/>
+						<Prp name="index" type="I" value="73"/>
+						<Prp name="value" type="L" value="300"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_132">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="SEARCH_HEAVYWEIGHTS"/>
+						<Prp name="index" type="I" value="132"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_82">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="selectingItem"/>
+						<Prp name="index" type="I" value="82"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_152">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WHEN_IN_FOCUSED_WINDOW"/>
+						<Prp name="index" type="I" value="152"/>
+						<Prp name="value" type="L" value="2"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_99">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="adjustmentListenerK"/>
+						<Prp name="index" type="I" value="99"/>
+						<Prp name="value" type="S" value="adjustmentL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_38">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="flags"/>
+						<Prp name="index" type="I" value="38"/>
+						<Prp name="value" type="L" value="16777576"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_52">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="IS_PAINTING_TILE"/>
+						<Prp name="index" type="I" value="52"/>
+						<Prp name="value" type="L" value="2"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_72">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="PARTIALLY_OBSCURED"/>
+						<Prp name="index" type="I" value="72"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_93">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zautoSize"/>
+						<Prp name="index" type="I" value="93"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_26">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="autoscrolls"/>
+						<Prp name="index" type="I" value="26"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_77">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RESERVED_2"/>
+						<Prp name="index" type="I" value="77"/>
+						<Prp name="value" type="L" value="16"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_75">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="REQUEST_FOCUS_DISABLED"/>
+						<Prp name="index" type="I" value="75"/>
+						<Prp name="value" type="L" value="22"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_43">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FOCUS_TRAVERSAL_KEYS_BACKWARD_SET"/>
+						<Prp name="index" type="I" value="43"/>
+						<Prp name="value" type="L" value="27"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_1">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="AWTComponentIndex"/>
+						<Prp name="index" type="I" value="1"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Java"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_85">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="uiClassID"/>
+						<Prp name="index" type="I" value="85"/>
+						<Prp name="value" type="S" value="ComponentUI"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_126">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="mouseListenerK"/>
+						<Prp name="index" type="I" value="126"/>
+						<Prp name="value" type="S" value="mouseL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_97">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="actionCommand"/>
+						<Prp name="index" type="I" value="97"/>
+						<Prp name="value" type="S" value="comboBoxChanged"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_22">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="alignmentY"/>
+						<Prp name="index" type="I" value="22"/>
+						<Prp name="value" type="D" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_71">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="OPAQUE_SET"/>
+						<Prp name="index" type="I" value="71"/>
+						<Prp name="value" type="L" value="24"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_20">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ACTIONMAP_CREATED"/>
+						<Prp name="index" type="I" value="20"/>
+						<Prp name="value" type="L" value="8"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_4">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Enabled"/>
+						<Prp name="index" type="I" value="4"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_102">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="componentListenerK"/>
+						<Prp name="index" type="I" value="102"/>
+						<Prp name="value" type="S" value="componentL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_108">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="hierarchyBoundsListenerK"/>
+						<Prp name="index" type="I" value="108"/>
+						<Prp name="value" type="S" value="hierarchyBoundsL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_3">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ChildCount"/>
+						<Prp name="index" type="I" value="3"/>
+						<Prp name="value" type="L" value="2"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_148">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="TOP_ALIGNMENT"/>
+						<Prp name="index" type="I" value="148"/>
+						<Prp name="value" type="D" value="0"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_83">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="serialVersionUID"/>
+						<Prp name="index" type="I" value="83"/>
+						<Prp name="value" type="D" value="-7.64411451271462E18"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_92">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WRITE_OBJ_COUNTER_LAST"/>
+						<Prp name="index" type="I" value="92"/>
+						<Prp name="value" type="L" value="21"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_116">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isInc"/>
+						<Prp name="index" type="I" value="116"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_64">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="nameExplicitlySet"/>
+						<Prp name="index" type="I" value="64"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_133">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="textListenerK"/>
+						<Prp name="index" type="I" value="133"/>
+						<Prp name="value" type="S" value="textL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_118">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="itemListenerK"/>
+						<Prp name="index" type="I" value="118"/>
+						<Prp name="value" type="S" value="itemL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_135">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="windowListenerK"/>
+						<Prp name="index" type="I" value="135"/>
+						<Prp name="value" type="S" value="windowL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_88">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="verifyInputWhenFocusTarget"/>
+						<Prp name="index" type="I" value="88"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_149">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="UNDEFINED_CONDITION"/>
+						<Prp name="index" type="I" value="149"/>
+						<Prp name="value" type="L" value="-1"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_8">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Id"/>
+						<Prp name="index" type="I" value="8"/>
+						<Prp name="value" type="L" value="5663"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_146">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="SEPARATOR"/>
+						<Prp name="index" type="I" value="146"/>
+						<Prp name="value" type="S" value="*separator"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_23">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ANCESTOR_INPUTMAP_CREATED"/>
+						<Prp name="index" type="I" value="23"/>
+						<Prp name="value" type="L" value="6"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_94">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zavoidActionPerformed"/>
+						<Prp name="index" type="I" value="94"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_91">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WRITE_OBJ_COUNTER_FIRST"/>
+						<Prp name="index" type="I" value="91"/>
+						<Prp name="value" type="L" value="14"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_24">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ANCESTOR_USING_BUFFER"/>
+						<Prp name="index" type="I" value="24"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_106">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="eventMask"/>
+						<Prp name="index" type="I" value="106"/>
+						<Prp name="value" type="D" value="4104"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_11">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Left"/>
+						<Prp name="index" type="I" value="11"/>
+						<Prp name="value" type="L" value="544"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_81">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RESERVED_6"/>
+						<Prp name="index" type="I" value="81"/>
+						<Prp name="value" type="L" value="20"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_67">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="NOT_OBSCURED"/>
+						<Prp name="index" type="I" value="67"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_113">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="inputMethodListenerK"/>
+						<Prp name="index" type="I" value="113"/>
+						<Prp name="value" type="S" value="inputMethodL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_142">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="BOTTOM_ALIGNMENT"/>
+						<Prp name="index" type="I" value="142"/>
+						<Prp name="value" type="D" value="1"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_40">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FOCUS_TRAVERSABLE_DEFAULT"/>
+						<Prp name="index" type="I" value="40"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_27">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="AUTOSCROLLS_SET"/>
+						<Prp name="index" type="I" value="27"/>
+						<Prp name="value" type="L" value="25"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_46">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="focusCycleRoot"/>
+						<Prp name="index" type="I" value="46"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_33">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="CREATED_DOUBLE_BUFFER"/>
+						<Prp name="index" type="I" value="33"/>
+						<Prp name="value" type="L" value="9"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_110">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ignoreRepaint"/>
+						<Prp name="index" type="I" value="110"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_15">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ScreenTop"/>
+						<Prp name="index" type="I" value="15"/>
+						<Prp name="value" type="L" value="384"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_104">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="DEBUG_GRAPHICS_LOADED"/>
+						<Prp name="index" type="I" value="104"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_107">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="focusListenerK"/>
+						<Prp name="index" type="I" value="107"/>
+						<Prp name="value" type="S" value="focusL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_89">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WHEN_IN_FOCUSED_WINDOW_BINDINGS"/>
+						<Prp name="index" type="I" value="89"/>
+						<Prp name="value" type="S" value="_WhenInFocusedWindow"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_143">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="CENTER_ALIGNMENT"/>
+						<Prp name="index" type="I" value="143"/>
+						<Prp name="value" type="D" value="0.5"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_150">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WHEN_ANCESTOR_OF_FOCUSED_COMPONENT"/>
+						<Prp name="index" type="I" value="150"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_60">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isFocusTraversableOverridden_2"/>
+						<Prp name="index" type="I" value="60"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_84">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="serialVersionUID_2"/>
+						<Prp name="index" type="I" value="84"/>
+						<Prp name="value" type="D" value="4.61379757891991E18"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_9">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="JavaClassName"/>
+						<Prp name="index" type="I" value="9"/>
+						<Prp name="value" type="S" value="LogLinkComboBox"/>
+						<Prp name="category" type="S" value="Java"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_129">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="newEventsOnly"/>
+						<Prp name="index" type="I" value="129"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_103">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="containerListenerK"/>
+						<Prp name="index" type="I" value="103"/>
+						<Prp name="value" type="S" value="containerL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_32">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="containerSerializedDataVersion"/>
+						<Prp name="index" type="I" value="32"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_101">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="comboHandle"/>
+						<Prp name="index" type="I" value="101"/>
+						<Prp name="value" type="L" value="154"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_68">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="numOfHWComponents"/>
+						<Prp name="index" type="I" value="68"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_90">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WIF_INPUTMAP_CREATED"/>
+						<Prp name="index" type="I" value="90"/>
+						<Prp name="value" type="L" value="7"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_36">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="descendUnconditionallyWhenValidating"/>
+						<Prp name="index" type="I" value="36"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_136">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="windowStateListenerK"/>
+						<Prp name="index" type="I" value="136"/>
+						<Prp name="value" type="S" value="windowStateL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_2">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="AWTComponentName"/>
+						<Prp name="index" type="I" value="2"/>
+						<Prp name="value" type="S" value="ar.printer"/>
+						<Prp name="category" type="S" value="Java"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_7">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Height"/>
+						<Prp name="index" type="I" value="7"/>
+						<Prp name="value" type="L" value="20"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_55">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="IS_REPAINTING"/>
+						<Prp name="index" type="I" value="55"/>
+						<Prp name="value" type="L" value="13"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_63">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="KEYBOARD_BINDINGS_KEY"/>
+						<Prp name="index" type="I" value="63"/>
+						<Prp name="value" type="S" value="_KeyboardBindings"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_80">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RESERVED_5"/>
+						<Prp name="index" type="I" value="80"/>
+						<Prp name="value" type="L" value="19"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_139">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zassertionsDisabled"/>
+						<Prp name="index" type="I" value="139"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_137">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="x"/>
+						<Prp name="index" type="I" value="137"/>
+						<Prp name="value" type="L" value="24"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_47">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="focusTraversalKeysEnabled"/>
+						<Prp name="index" type="I" value="47"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_105">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="descendantsCount"/>
+						<Prp name="index" type="I" value="105"/>
+						<Prp name="value" type="L" value="3"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_61">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isJavaAwtSmartInvalidate"/>
+						<Prp name="index" type="I" value="61"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_123">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="maximumRowCount"/>
+						<Prp name="index" type="I" value="123"/>
+						<Prp name="value" type="L" value="30"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_79">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RESERVED_4"/>
+						<Prp name="index" type="I" value="79"/>
+						<Prp name="value" type="L" value="18"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_100">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="backgroundEraseDisabled"/>
+						<Prp name="index" type="I" value="100"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_56">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isAddNotifyComplete"/>
+						<Prp name="index" type="I" value="56"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_65">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="NEXT_FOCUS"/>
+						<Prp name="index" type="I" value="65"/>
+						<Prp name="value" type="S" value="nextFocus"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_87">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="valid"/>
+						<Prp name="index" type="I" value="87"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_51">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="IS_OPAQUE"/>
+						<Prp name="index" type="I" value="51"/>
+						<Prp name="value" type="L" value="3"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_122">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="listeningChildren"/>
+						<Prp name="index" type="I" value="122"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_138">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="y"/>
+						<Prp name="index" type="I" value="138"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_112">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="incRate"/>
+						<Prp name="index" type="I" value="112"/>
+						<Prp name="value" type="L" value="100"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_96">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zthrowsKeyEvent"/>
+						<Prp name="index" type="I" value="96"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_69">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="numOfLWComponents"/>
+						<Prp name="index" type="I" value="69"/>
+						<Prp name="value" type="L" value="3"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_76">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RESERVED_1"/>
+						<Prp name="index" type="I" value="76"/>
+						<Prp name="value" type="L" value="15"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_86">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="uiClassID_2"/>
+						<Prp name="index" type="I" value="86"/>
+						<Prp name="value" type="S" value="ComboBoxUI"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_42">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FOCUS_TRAVERSABLE_UNKNOWN"/>
+						<Prp name="index" type="I" value="42"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_21">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="alignmentX"/>
+						<Prp name="index" type="I" value="21"/>
+						<Prp name="value" type="D" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_31">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="componentSerializedDataVersion"/>
+						<Prp name="index" type="I" value="31"/>
+						<Prp name="value" type="L" value="4"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_6">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FullName"/>
+						<Prp name="index" type="I" value="6"/>
+						<Prp name="value" type="S" value="Sys.Process(&quot;javaw&quot;).SwingObject(&quot;RubisContainerDialog&quot;, &quot;Saisie des bons&quot;, -1, 2).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;CdcPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;LogPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;LogRubisPanel&quot;, &quot;&quot;, 1).SwingObject(&quot;CdcEndWizardPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;RubisWizardContainer&quot;, &quot;&quot;, 0).SwingObject(&quot;CdcEndPageEditions&quot;, &quot;&quot;, 0).SwingObject(&quot;LogRubisPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;CdcEndPageEditions$5&quot;, &quot;Edition&quot;, 0).SwingObject(&quot;LogRubisPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;LogRubisBorderPanel&quot;, &quot;Editer&quot;, 0).SwingObject(&quot;ar&quot;).SwingObject(&quot;LogRubisXField&quot;, &quot;&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ar.printer&quot;)"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_141">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zuseInterNational"/>
+						<Prp name="index" type="I" value="141"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_131">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="prefSizeSet"/>
+						<Prp name="index" type="I" value="131"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_18">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="VisibleOnScreen"/>
+						<Prp name="index" type="I" value="18"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_35">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="DELTA_AUTO_SIZE"/>
+						<Prp name="index" type="I" value="35"/>
+						<Prp name="value" type="L" value="50"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_115">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isEditable_2"/>
+						<Prp name="index" type="I" value="115"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_144">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="LEFT_ALIGNMENT"/>
+						<Prp name="index" type="I" value="144"/>
+						<Prp name="value" type="D" value="0"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_95">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zdisableActionPerformed"/>
+						<Prp name="index" type="I" value="95"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_147">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="TOOL_TIP_TEXT_KEY"/>
+						<Prp name="index" type="I" value="147"/>
+						<Prp name="value" type="S" value="ToolTipText"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_117">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isPacked"/>
+						<Prp name="index" type="I" value="117"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_49">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="INHERITS_POPUP_MENU"/>
+						<Prp name="index" type="I" value="49"/>
+						<Prp name="value" type="L" value="23"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_78">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RESERVED_3"/>
+						<Prp name="index" type="I" value="78"/>
+						<Prp name="value" type="L" value="17"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_39">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FOCUS_INPUTMAP_CREATED"/>
+						<Prp name="index" type="I" value="39"/>
+						<Prp name="value" type="L" value="5"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_34">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="defaultLocale"/>
+						<Prp name="index" type="I" value="34"/>
+						<Prp name="value" type="S" value="JComponent.defaultLocale"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_54">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="IS_PRINTING_ALL"/>
+						<Prp name="index" type="I" value="54"/>
+						<Prp name="value" type="L" value="12"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_66">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="noFire"/>
+						<Prp name="index" type="I" value="66"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_13">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Name"/>
+						<Prp name="index" type="I" value="13"/>
+						<Prp name="value" type="S" value="SwingObject(&quot;ar.printer&quot;)"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_45">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="focusable"/>
+						<Prp name="index" type="I" value="45"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_53">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="IS_PRINTING"/>
+						<Prp name="index" type="I" value="53"/>
+						<Prp name="value" type="L" value="11"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_62">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="KEY_EVENTS_ENABLED"/>
+						<Prp name="index" type="I" value="62"/>
+						<Prp name="value" type="L" value="4"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_127">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="mouseMotionListenerK"/>
+						<Prp name="index" type="I" value="127"/>
+						<Prp name="value" type="S" value="mouseMotionL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_114">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="internationalizing"/>
+						<Prp name="index" type="I" value="114"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_125">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="minSizeSet"/>
+						<Prp name="index" type="I" value="125"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_10">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="JavaFullClassName"/>
+						<Prp name="index" type="I" value="10"/>
+						<Prp name="value" type="S" value="com.loginor.tools.beans.LogLinkComboBox"/>
+						<Prp name="category" type="S" value="Java"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_29">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="coalescingEnabled"/>
+						<Prp name="index" type="I" value="29"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_145">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="RIGHT_ALIGNMENT"/>
+						<Prp name="index" type="I" value="145"/>
+						<Prp name="value" type="D" value="1"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="6"/>
+					</Node>
+					<Node name="property_28">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="boundsOp"/>
+						<Prp name="index" type="I" value="28"/>
+						<Prp name="value" type="L" value="3"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_111">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="INCLUDE_SELF"/>
+						<Prp name="index" type="I" value="111"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_41">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FOCUS_TRAVERSABLE_SET"/>
+						<Prp name="index" type="I" value="41"/>
+						<Prp name="value" type="L" value="2"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_16">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Top"/>
+						<Prp name="index" type="I" value="16"/>
+						<Prp name="value" type="L" value="326"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_0">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="AWTComponentAccessibleName"/>
+						<Prp name="index" type="I" value="0"/>
+						<Prp name="value" type="S" value=""/>
+						<Prp name="category" type="S" value="Java"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_140">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="zautoInterNationalize"/>
+						<Prp name="index" type="I" value="140"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_128">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="mouseWheelListenerK"/>
+						<Prp name="index" type="I" value="128"/>
+						<Prp name="value" type="S" value="mouseWheelL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_50">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="IS_DOUBLE_BUFFERED"/>
+						<Prp name="index" type="I" value="50"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_124">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="maxSizeSet"/>
+						<Prp name="index" type="I" value="124"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_48">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="focusTraversalPolicyProvider"/>
+						<Prp name="index" type="I" value="48"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_134">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="windowFocusListenerK"/>
+						<Prp name="index" type="I" value="134"/>
+						<Prp name="value" type="S" value="windowFocusL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_19">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Width"/>
+						<Prp name="index" type="I" value="19"/>
+						<Prp name="value" type="L" value="150"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_70">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="oldItem"/>
+						<Prp name="index" type="I" value="70"/>
+						<Prp name="value" type="L" value="1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_5">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Exists"/>
+						<Prp name="index" type="I" value="5"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_121">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="listeningBoundsChildren"/>
+						<Prp name="index" type="I" value="121"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_58">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isAlignmentYSet"/>
+						<Prp name="index" type="I" value="58"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_120">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="lightWeightPopupEnabled"/>
+						<Prp name="index" type="I" value="120"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_14">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ScreenLeft"/>
+						<Prp name="index" type="I" value="14"/>
+						<Prp name="value" type="L" value="584"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_59">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isFillingCombo_2"/>
+						<Prp name="index" type="I" value="59"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_17">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="Visible"/>
+						<Prp name="index" type="I" value="17"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_12">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="MappedName"/>
+						<Prp name="index" type="I" value="12"/>
+						<Prp name="value" type="S" value=""/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="0"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_98">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="actionListenerK"/>
+						<Prp name="index" type="I" value="98"/>
+						<Prp name="value" type="S" value="actionL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_44">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="FOCUS_TRAVERSAL_KEYS_FORWARD_SET"/>
+						<Prp name="index" type="I" value="44"/>
+						<Prp name="value" type="L" value="26"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_130">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="ownedWindowK"/>
+						<Prp name="index" type="I" value="130"/>
+						<Prp name="value" type="S" value="ownedL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_119">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="keyListenerK"/>
+						<Prp name="index" type="I" value="119"/>
+						<Prp name="value" type="S" value="keyL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+					<Node name="property_25">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="autoFocusTransferOnDisposal"/>
+						<Prp name="index" type="I" value="25"/>
+						<Prp name="value" type="B" value="-1"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_57">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="isAlignmentXSet"/>
+						<Prp name="index" type="I" value="57"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_74">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="printing"/>
+						<Prp name="index" type="I" value="74"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_37">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="firingActionEvent"/>
+						<Prp name="index" type="I" value="37"/>
+						<Prp name="value" type="B" value="0"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="3"/>
+					</Node>
+					<Node name="property_30">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="COMPLETELY_OBSCURED"/>
+						<Prp name="index" type="I" value="30"/>
+						<Prp name="value" type="L" value="2"/>
+						<Prp name="category" type="S" value="Private"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_151">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="WHEN_FOCUSED"/>
+						<Prp name="index" type="I" value="151"/>
+						<Prp name="value" type="L" value="0"/>
+						<Prp name="category" type="S" value="Public"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="1"/>
+					</Node>
+					<Node name="property_109">
+						<Prp name="selected" type="B" value="-1"/>
+						<Prp name="name" type="S" value="hierarchyListenerK"/>
+						<Prp name="index" type="I" value="109"/>
+						<Prp name="value" type="S" value="hierarchyL"/>
+						<Prp name="category" type="S" value="Protected"/>
+						<Prp name="basic" type="B" value="-1"/>
+						<Prp name="kind" type="I" value="4"/>
+						<Prp name="type" type="I" value="2"/>
+					</Node>
+				</Node>
+				<Prp name="selected" type="B" value="-1"/>
+				<Prp name="name" type="S" value="SwingObject(&quot;ar.printer&quot;)"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="group name" type="S" value=""/>
+				<Prp name="class name" type="S" value="SwingObject(&quot;ar.printer&quot;)"/>
+				<Prp name="objecttype" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Node name="properties"/>
+		<Prp name="selected" type="B" value="-1"/>
+		<Prp name="name" type="S" value=""/>
+		<Prp name="version" type="I" value="1"/>
+		<Prp name="mode" type="I" value="6"/>
+		<Prp name="group name" type="S" value=""/>
+		<Prp name="class name" type="S" value=""/>
+		<Prp name="objecttype" type="I" value="0"/>
+		<Prp name="identifier" type="S" value="Stores.Objects"/>
+	</Node>
+</Nodes>
